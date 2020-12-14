@@ -45,8 +45,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
-  z-index: 999;
+  background-color: #A9A9A9;
+  z-index: 999999;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
