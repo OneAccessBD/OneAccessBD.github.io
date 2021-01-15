@@ -6,8 +6,8 @@ $(function () {
   ----------------------------------*/
   $(window).on("load", function () {
     $(".loader").fadeOut();
-    $("#preloader").delay(350).fadeOut("slow");
-    $("body").delay(350).css({
+    $("#preloader").delay(35).fadeOut("slow");
+    $("body").delay(35).css({
       "overflow": "visible"
     });
     $(".all-container").css({
@@ -247,10 +247,10 @@ $(function () {
   });
 
   // Configuring Fun-Facts Counter
-  var work = new CountUp('work', 0, 4, 0, 4);
-  var happyClient = new CountUp('happy-client', 0, 127, 0, 4);
-  var projects = new CountUp('projects', 0, 82, 0, 4);
-  var coffee = new CountUp('coffee', 0, 132, 0, 4);
+  var work = new CountUp('work', 0, 6, 0, 4);
+  var happyClient = new CountUp('happy-client', 0, 139, 0, 4);
+  var projects = new CountUp('projects', 0, 101, 0, 4);
+  var coffee = new CountUp('coffee', 0, 143, 0, 4);
 
   // Initializing Fun-Fact Counter
   $('.fun-facts').waypoint({
