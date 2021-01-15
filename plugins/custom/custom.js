@@ -248,9 +248,9 @@ $(function () {
 
   // Configuring Fun-Facts Counter
   var work = new CountUp('work', 0, 6, 0, 4);
-  var happyClient = new CountUp('happy-client', 0, 139, 0, 4);
-  var projects = new CountUp('projects', 0, 101, 0, 4);
-  var coffee = new CountUp('coffee', 0, 143, 0, 4);
+  var happyClient = new CountUp('happy-client', 0, 141, 0, 4);
+  var projects = new CountUp('projects', 0, 103, 0, 4);
+  var coffee = new CountUp('coffee', 0, 145, 0, 4);
 
   // Initializing Fun-Fact Counter
   $('.fun-facts').waypoint({
