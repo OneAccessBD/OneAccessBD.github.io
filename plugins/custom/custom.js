@@ -247,10 +247,10 @@ $(function () {
   });
 
   // Configuring Fun-Facts Counter
-  var work = new CountUp('work', 0, 7, 0, 4);
-  var happyClient = new CountUp('happy-client', 0, 177, 0, 4);
-  var projects = new CountUp('projects', 0, 127, 0, 4);
-  var coffee = new CountUp('coffee', 0, 180, 0, 4);
+  var work = new CountUp('work', 0, 9, 0, 4);
+  var happyClient = new CountUp('happy-client', 0, 187, 0, 4);
+  var projects = new CountUp('projects', 0, 136, 0, 4);
+  var coffee = new CountUp('coffee', 0, 191, 0, 4);
 
   // Initializing Fun-Fact Counter
   $('.fun-facts').waypoint({
